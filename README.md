@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.uxfree.com/wp-content/uploads/2018/04/pixel-loading-bar.jpg">
+  <img src="https://user-images.githubusercontent.com/90708399/202263148-13193bf4-4c1d-4671-9159-8d3c850d18ca.jpg">
 </p>
 
 ## Emoji-ProgressBar
@@ -11,7 +11,7 @@ bruh bruh lmfao bruh lmao lol.
 
 #Vietnamese:
 
-code Javascript đơn giản dễ dàng để tạo thanh tiến trình biểu tượng cảm xúc cho bot discord của bạn.
+code Javascript đơn giản dễ dàng để tạo emoji progress bar cho bot discord của bạn.
 
 #French:
 
