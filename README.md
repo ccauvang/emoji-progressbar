@@ -2,9 +2,24 @@
   <img src="https://img.uxfree.com/wp-content/uploads/2018/04/pixel-loading-bar.jpg">
 </p>
 
-## Text-ProgressBar
-A simple Javascript code to easily create text progress bar for your discord bot.
-It also works with all kind of programs.
+## Emoji-ProgressBar
+#English:
+
+A simple Javascript code to easily create emoji progress bar for your discord bot.
+
+bruh bruh lmfao bruh lmao lol.
+
+#Vietnamese:
+
+code Javascript đơn giản dễ dàng để tạo thanh tiến trình biểu tượng cảm xúc cho bot discord của bạn.
+
+#French:
+
+code Javascript simple pour créer facilement une barre de progression emoji pour votre bot discord.
+
+#Japanese:
+
+Discord ボットの絵文字プログレス バーを簡単に作成するためのシンプルな Javascript コード。
 
 ## How to use it
 
