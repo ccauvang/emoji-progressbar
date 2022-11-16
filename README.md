@@ -9,8 +9,17 @@ It also works with all kind of programs.
 ## How to use it
 
 ```javascript
-var progressbar = progressBar(value, maxValue, size);
+var progressbar = progressBarEmoji (fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size);
 ```
 
-## Example
-![](https://i.imgur.com/AOCcEVW.png)
+## Code example
+```js
+//emoji default
+console.log(progressBarEmoji (🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 10, 20, 5));
+//return 🇻🇳🐸🐸👌🙏
+console.log(progressBarEmoji (🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 200, 200, 5));
+//return 🇻🇳🐸🐸🐸💀
+console.log(progressBarEmoji (🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 0, 200, 5));
+//return 🗿👌👌👌🙏
+```
+## Emoji discord | example image
