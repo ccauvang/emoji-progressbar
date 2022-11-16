@@ -38,3 +38,6 @@ console.log(progressBarEmoji (🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 0, 200, 5)
 //return 🗿👌👌👌🙏
 ```
 ## Emoji discord | example image
+<p align="left">
+<img src="https://user-images.githubusercontent.com/90708399/202264437-4de9a537-0841-4410-b602-e9eff99828fc.JPG">
+</p>
