@@ -1,4 +1,4 @@
-function progressBarEmoji (fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size) {
+module.exports = function (fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size) {
 	let barArray = [];
         let full = Math.round(size * (value / maxValue > 1 ? 1 : value / maxValue));
         let empty = size - full > 0 ? size - full : 0;
@@ -7,6 +7,4 @@ function progressBarEmoji (fullStart, fullBar, fullEnd, emptyStart, emptyBar, em
         barArray[0] = barArray[0] == fullBar ? fullStart : emptyStart;
         barArray[barArray.length - 1] = barArray[barArray.length - 1] == fullBar ? fullEnd : emptyEnd;
         return barArray.join(``);
-    } 
-    
-
+ }
