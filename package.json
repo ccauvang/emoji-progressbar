@@ -5,7 +5,7 @@
   "license": "MIT",
   "description": "bruh lmfao",
   "main": "index.js",
-  },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/ccauvang/emoji-progressbar"
@@ -24,3 +24,4 @@
     "emoji bar"
     "lmafo"
   ]
+}
