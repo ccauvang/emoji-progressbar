@@ -30,11 +30,11 @@ var progressbar = progressBarEmoji (fullStart, fullBar, fullEnd, emptyStart, emp
 ## Code example
 ```js
 //emoji default
-console.log(progressBarEmoji (🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 10, 20, 5));
+console.log(progressBarEmoji(🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 10, 20, 5));
 //return 🇻🇳🐸🐸👌🙏
-console.log(progressBarEmoji (🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 200, 200, 5));
+console.log(progressBarEmoji(🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 200, 200, 5));
 //return 🇻🇳🐸🐸🐸💀
-console.log(progressBarEmoji (🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 0, 200, 5));
+console.log(progressBarEmoji(🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 0, 200, 5));
 //return 🗿👌👌👌🙏
 ```
 ## Emoji discord | example image
