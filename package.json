@@ -1,0 +1,27 @@
+{
+  "name": "emoji-progressbar",
+  "version": "9.9.9",
+  "author": "ccauvang",
+  "license": "MIT",
+  "description": "bruh lmfao",
+  "main": "index.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccauvang/emoji-progressbar"
+  },
+  "bugs": {
+    "url": "https://github.com/ccauvang/emoji-progressbar/issues"
+  },
+  "homepage": "https://github.com/ccauvang/emoji-progressbar#readme",
+  "keywords": [
+    "discord",
+    "discord.js",
+    "progress",
+    "bar",
+    "progress bar"
+    "emoji progress"
+    "emoji bar"
+    "lmafo"
+  ]
+}
