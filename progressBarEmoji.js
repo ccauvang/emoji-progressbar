@@ -1,4 +1,4 @@
-module.exports = function (fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size) {
+function emojibar (fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size) {
 	let barArray = [];
         let full = Math.round(size * (value / maxValue > 1 ? 1 : value / maxValue));
         let empty = size - full > 0 ? size - full : 0;
@@ -8,3 +8,4 @@ module.exports = function (fullStart, fullBar, fullEnd, emptyStart, emptyBar, em
         barArray[barArray.length - 1] = barArray[barArray.length - 1] == fullBar ? fullEnd : emptyEnd;
         return barArray.join(``);
  }
+module.exports = emojibar;
