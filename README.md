@@ -24,18 +24,18 @@ Discord ボットの絵文字プログレス バーを簡単に作成するた�
 ## How to use it
 
 ```javascript
-const progressBarEmoji = require("emoji-progressbar");
-var progressbar = progressBarEmoji(fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size);
+const emojibar = require("emoji-progressbar");
+var progressbar = emojibar(fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size);
 ```
 
 ## Code example
 ```js
 //emoji default
-console.log(progressBarEmoji(🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 10, 20, 5));
+console.log(emojibar(🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 10, 20, 5));
 //return 🇻🇳🐸🐸👌🙏
-console.log(progressBarEmoji(🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 200, 200, 5));
+console.log(emojibar(🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 200, 200, 5));
 //return 🇻🇳🐸🐸🐸💀
-console.log(progressBarEmoji(🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 0, 200, 5));
+console.log(emojibar(🇻🇳, 🐸, 💀, 🗿, 👌, 🙏, 0, 200, 5));
 //return 🗿👌👌👌🙏
 ```
 ## Emoji discord | example image
