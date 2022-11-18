@@ -24,7 +24,8 @@ Discord ボットの絵文字プログレス バーを簡単に作成するた�
 ## How to use it
 
 ```javascript
-var progressbar = progressBarEmoji (fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size);
+const progressBarEmoji require("emojibar");
+var progressbar = progressBarEmoji(fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size);
 ```
 
 ## Code example
