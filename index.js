@@ -8,4 +8,4 @@ function emojibar (fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, 
         barArray[barArray.length - 1] = barArray[barArray.length - 1] == fullBar ? fullEnd : emptyEnd;
         return barArray.join(``);
  }
-module.exports = emojibar;
+module.exports = emojibar();
