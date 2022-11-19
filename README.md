@@ -7,7 +7,7 @@
 
 A simple Javascript code to easily create emoji progress bar for your discord bot.
 
-bruh bruh lmfao bruh lmao lol.
+bruh bruh lmfao bruh lol.
 
 #Vietnamese:
 
