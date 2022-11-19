@@ -1,9 +1,9 @@
 {
   "name": "emoji-progressbar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "ccauvang",
   "license": "MIT",
-  "description": "bruh lmfao",
+  "description": "progress bar for emoji discord",
   "main": "index.js",
 
   "repository": {
@@ -21,7 +21,6 @@
     "bar",
     "progress bar",
     "emoji progress",
-    "emoji bar",
-    "lmafo"
+    "emoji bar"
   ]
 }
