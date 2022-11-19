@@ -1,3 +1,5 @@
 replit.nix
 .replit
 .npmignore
+.cache/
+LICENSE
