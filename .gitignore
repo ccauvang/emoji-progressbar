@@ -2,4 +2,7 @@ replit.nix
 .replit
 .npmignore
 .cache/
+.config
+.git
+.gitignore
 LICENSE
