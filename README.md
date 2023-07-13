@@ -22,10 +22,12 @@ Discord ボットの絵文字プログレス バーを簡単に作成するた�
 ## How to use it
 
 ```javascript
+import { emojibar } from 'emoji-progressbar';
 const emojibar = require("emoji-progressbar");
 var progressbar = emojibar(fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size);
 
 //v2
+import { emojibarv2 } from 'emoji-progressbar';
 const emojibarv2 = require("emoji-progressbar");
 var progressbar = emojibarv2(Bar1empty, Bar1mid, Bar1full, Bar2empty, Bar2mid, Bar2high, Bar2full, Bar3empty, Bar3mid, Bar3full, value, maxValue, size);
 ```
