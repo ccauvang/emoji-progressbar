@@ -1,7 +1,5 @@
 replit.nix
 .replit
 .npmignore
-.cache/
 .config
-.git
 LICENSE
