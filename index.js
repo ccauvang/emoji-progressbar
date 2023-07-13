@@ -117,4 +117,5 @@ function emojibarv2(Bar1empty, Bar1mid, Bar1full, Bar2empty, Bar2mid, Bar2high, 
   };
 };
 
+
 module.exports = emojibarv2;
