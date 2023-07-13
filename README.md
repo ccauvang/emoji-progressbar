@@ -7,17 +7,15 @@
 
 A simple Javascript code to easily create emoji progress bar for your discord bot.
 
-bruh bruh lmfao bruh lol.
-
 #Vietnamese:
 
 code Javascript đơn giản dễ dàng để tạo emoji progress bar cho bot discord của bạn.
 
-#French:
+#French: (gg translate)
 
 code Javascript simple pour créer facilement une barre de progression emoji pour votre bot discord.
 
-#Japanese:
+#Japanese: (gg translate)
 
 Discord ボットの絵文字プログレス バーを簡単に作成するためのシンプルな Javascript コード。
 
@@ -26,17 +24,27 @@ Discord ボットの絵文字プログレス バーを簡単に作成するた�
 ```javascript
 const emojibar = require("emoji-progressbar");
 var progressbar = emojibar(fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size);
+
+//v2
+const emojibarv2 = require("emoji-progressbar");
+var progressbar = emojibarv2(Bar1empty, Bar1mid, Bar1full, Bar2empty, Bar2mid, Bar2high, Bar2full, Bar3empty, Bar3mid, Bar3full, value, maxValue, size);
 ```
 
 ## Code example
 ```js
-//emoji default
+//emojibar
 console.log(emojibar("🇻🇳", "🐸", "💀", "🗿", "👌", "🙏", 10, 20, 5));
 //return 🇻🇳🐸🐸👌🙏
 console.log(emojibar("🇻🇳", "🐸", "💀", "🗿", "👌", "🙏", 200, 200, 5));
 //return 🇻🇳🐸🐸🐸💀
 console.log(emojibar("🇻🇳", "🐸", "💀", "🗿", "👌", "🙏", 0, 200, 5));
 //return 🗿👌👌👌🙏
+//----//
+//emojibarv2
+console.log(emojibarv2('1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟', 50, 100, 6));
+//return 3️⃣6️⃣4️⃣4️⃣4️⃣8️⃣
+console.log(emojibarv2('1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟', 90, 100, 6));
+//return 3️⃣7️⃣7️⃣7️⃣7️⃣9️⃣
 ```
 ## Emoji discord | example image
 <p align="left">
