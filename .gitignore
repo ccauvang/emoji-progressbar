@@ -4,5 +4,4 @@ replit.nix
 .cache/
 .config
 .git
-.gitignore
 LICENSE
