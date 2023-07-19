@@ -109,11 +109,11 @@ function emojibarv2(Bar1empty, Bar1mid, Bar1full, Bar2empty, Bar2mid, Bar2high, 
   
   if (percents == true) {
     return {
-      barString: barArray.join(` `),
-      percent: barArray.join(` `) +' '+ percent
+      barString: barArray.join(``),
+      percent: barArray.join(``) +' '+ percent
     };
   } else {
-    return barArray.join(` `);
+    return barArray.join(``);
   };
 };
 
