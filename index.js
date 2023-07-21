@@ -1,4 +1,5 @@
-function emojibar (fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size) {
+module.exports = {
+emojibar: function(fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, value, maxValue, size) {
 	let barArray = [];
         let full = Math.round(size * (value / maxValue > 1 ? 1 : value / maxValue));
         let empty = size - full > 0 ? size - full : 0;
@@ -7,10 +8,9 @@ function emojibar (fullStart, fullBar, fullEnd, emptyStart, emptyBar, emptyEnd, 
         barArray[0] = barArray[0] == fullBar ? fullStart : emptyStart;
         barArray[barArray.length - 1] = barArray[barArray.length - 1] == fullBar ? fullEnd : emptyEnd;
         return barArray.join(``);
- }
-module.exports = emojibar;
+ },
 
-function emojibarv2(Bar1empty, Bar1mid, Bar1full, Bar2empty, Bar2mid, Bar2high, Bar2full, Bar3empty, Bar3mid, Bar3full, value, maxValue, size, percents) {
+emojibarv2: function(Bar1empty, Bar1mid, Bar1full, Bar2empty, Bar2mid, Bar2high, Bar2full, Bar3empty, Bar3mid, Bar3full, value, maxValue, size, percents) {
   let barArray = [];
   if (isNaN(value) || isNaN(maxValue)) throw new Error('maxValue or value is not a number');
   
@@ -115,7 +115,5 @@ function emojibarv2(Bar1empty, Bar1mid, Bar1full, Bar2empty, Bar2mid, Bar2high, 
   } else {
     return barArray.join(``);
   };
-};
-
-
-module.exports = emojibarv2;
+}
+}
